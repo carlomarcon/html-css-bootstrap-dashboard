@@ -27,7 +27,7 @@
 .ms_style-row-left {
   color: var(--sixth-color);
   background-color: var(--seventh-color);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .ms_setting {
@@ -93,6 +93,7 @@ td {
   color: orange;
 }
 
+.row-i
 /* PSEUDO */
 
 /* RESPONSIVE */
