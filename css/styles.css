@@ -56,4 +56,9 @@
   .ms_padding-right {
     padding-right: 2px;
   }
+
+  .ms_img {
+    height: 50px;
+    width: 50px;
+  }
 }
