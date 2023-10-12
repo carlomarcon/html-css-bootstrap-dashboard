@@ -14,23 +14,94 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
   </head>
-  <header></header>
+
   <body>
+    <!-- HEADER INIZIALE -->
+    <header>
+      <nav class="navbar bg-body-tertiary flex-nowrap">
+        <div class="container-fluid">
+          <a class="navbar-brand"
+            ><img src="img/mobile-logo.png" alt="" class="ms_img"
+          /></a>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2 fs-6"
+              type="search"
+              placeholder="Prova a cercare:Lezioni di Laravel"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              <i class="fa-solid fa-bell"></i>
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
     <div class="wrapper">
-      <div class="container h-100 w-25 text-center">
-        <a href="" class="d-block"> <i class="fa-solid fa-house"></i></a>
-        <a href="" class="d-block"> <i class="fa-solid fa-chart-simple"></i></a>
-        <a href="" class="d-block"><i class="fa-solid fa-signal"></i></a>
-        <a href="" class="d-block"> <i class="fa-solid fa-gear"></i></a>
+      <!-- CONTAINER A SINISTRA -->
+
+      <div class="container h-100 w-25 text-center ms_style-row-left p-2">
+        <a href="" class="d-block mb-1 ms_style-row-left">
+          <i class="fa-solid fa-house"></i
+        ></a>
+        <a href="" class="d-block mb-1 ms_style-row-left">
+          <i class="fa-solid fa-chart-simple"></i
+        ></a>
+        <a href="" class="d-block ms_style-row-left"
+          ><i class="fa-solid fa-signal"></i
+        ></a>
+        <a href="" class="d-block ms_style-row-left ms_setting">
+          <i class="fa-solid fa-gear"></i
+        ></a>
       </div>
+
+      <!-- CONTAINER A DESTRA -->
+
       <div class="container">
-        <div class="row">
+        <div class="row ms_datas p-1">
           <div class="col-sm-12">Nuovo Studente</div>
-          <div class="col-sm-12"></div>
-          <div class="col-sm-12"></div>
+          <div class="col-sm-12 ms_padding-right">
+            <h4 class="d-inline">Boolean</h4>
+            <a href="" class="ms_btn"> Piano blaze </a>
+            <a href="" class="ms_btn">3 app</a> <a href="" class="ms_btn">+</a>
+          </div>
+          <div class="col-sm-12 mt-3">
+            <p>Studenti online negli ultimi 30 minuti</p>
+            <span>125</span>
+          </div>
         </div>
         <div class="row">
-          <div class="col-sm-12"></div>
+          <div class="col-sm-12">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <div class="col-sm-0"></div>
           <div class="col-sm-0"></div>
           <div class="col-sm-0"></div>

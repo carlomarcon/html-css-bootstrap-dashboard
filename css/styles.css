@@ -4,10 +4,48 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #dc3545;
+  --secondary-color: #1b72e8;
+  --third-color: #f26551;
+  --fourth-color: #198754;
+  --fivth-color: #165bba;
+  --sixth-color: white;
+  --seventh-color: #051e34;
+}
+
 .wrapper {
+  height: 52rem;
   display: flex;
 }
 
-.no-style {
-  list-style-type: none;
+.ms_style-row-left {
+  color: var(--sixth-color);
+  background-color: var(--seventh-color);
+}
+
+.ms_setting {
+  margin-top: 40rem;
+}
+
+.ms_padding-right {
+  padding-right: 100px;
+}
+
+.ms_btn {
+  background-color: var(--fivth-color);
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 4px;
+  color: var(--sixth-color);
+}
+
+.ms_datas {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.ms_img {
+  height: 30px;
+  width: 30px;
 }
