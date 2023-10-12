@@ -27,10 +27,11 @@
 .ms_style-row-left {
   color: var(--sixth-color);
   background-color: var(--seventh-color);
+  font-size: 2rem;
 }
 
 .ms_setting {
-  margin-top: 40rem;
+  margin-top: 59rem;
 }
 
 .ms_padding-right {
@@ -48,6 +49,7 @@
 .ms_datas {
   background-color: var(--secondary-color);
   color: white;
+  height: 25%;
 }
 
 .ms_img {
@@ -76,6 +78,21 @@ td {
   padding: 1px;
 }
 
+::placeholder {
+  font-size: 1rem;
+}
+
+/* HEADER */
+
+.ms_input-header {
+  height: 3rem;
+}
+
+.bell-header {
+  border: none;
+  color: orange;
+}
+
 /* PSEUDO */
 
 /* RESPONSIVE */
@@ -88,5 +105,10 @@ td {
   .ms_img {
     height: 50px;
     width: 50px;
+  }
+
+  .ms_datas {
+    font-size: 1.5rem;
+    height: 20%;
   }
 }
