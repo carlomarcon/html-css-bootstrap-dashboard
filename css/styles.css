@@ -30,6 +30,18 @@
   font-size: 1.5rem;
 }
 
+header ul {
+  list-style-type: none;
+  height: 2rem;
+  width: 7rem;
+  line-height: 2rem;
+}
+
+header li {
+  display: inline-block;
+  margin: 6px;
+}
+
 .ms_setting {
   margin-top: 59rem;
 }
@@ -53,8 +65,14 @@
 }
 
 .ms_img {
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
+}
+
+.ms_img2 {
+  height: 40px;
+  width: 40px;
+  display: none;
 }
 
 span img {
@@ -82,6 +100,9 @@ td {
   font-size: 1rem;
 }
 
+.ms_height-FAQ {
+}
+
 /* HEADER */
 
 .ms_input-header {
@@ -93,7 +114,9 @@ td {
   color: orange;
 }
 
-.row-i
+.ms_overflow-scroll {
+  overflow-y: scroll;
+}
 /* PSEUDO */
 
 /* RESPONSIVE */
@@ -111,5 +134,27 @@ td {
   .ms_datas {
     font-size: 1.5rem;
     height: 20%;
+  }
+
+  .ms_overflow-scroll {
+    overflow-y: clip;
+  }
+
+  .ms_height-FAQ {
+    height: 50%;
+  }
+
+  .ms_datas {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ms_img {
+    display: none;
+  }
+
+  .ms_img2 {
+    display: inline-block;
   }
 }

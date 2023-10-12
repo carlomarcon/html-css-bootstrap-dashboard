@@ -29,11 +29,15 @@
     <!-- HEADER INIZIALE -->
     <div class="bigwrapper">
       <header>
-        <nav class="navbar bg-body-tertiary flex-nowrap">
+        <nav class="navbar bg-body-tertiary flex-nowrap text-end">
           <div class="container-fluid">
-            <a class="navbar-brand w-25 text-center"
-              ><img src="img/mobile-logo.png" alt="" class="ms_img"
-            /></a>
+            <a class="navbar-brand w-25"
+              ><img src="img/logo.svg" alt="" class="ms_img2" /><img
+                src="img/mobile-logo.png"
+                alt=""
+                class="ms_img"
+              />
+            </a>
             <form class="d-flex w-75" role="search">
               <input
                 class="form-control me-2 fs-6 w-75 ms_input-header"
@@ -41,8 +45,13 @@
                 placeholder="Prova a cercare:Lezioni di Laravel"
                 aria-label="Search"
               />
+              <ul class="d-none d-lg-inline-block">
+                <li>c</li>
+                <li>i</li>
+                <li>a</li>
+              </ul>
               <button
-                class="btn btn-outline-success w-25 bell-header"
+                class="btn btn-outline-success w-25 bell-header text-start"
                 type="submit"
               >
                 <i class="fa-solid fa-bell"></i>
@@ -72,14 +81,14 @@
           >
           <a href="" class="d-block ms_style-row-left ms_setting">
             <i class="fa-solid fa-gear"
-              ><span class="d-none d-lg-display-block">Admin</span></i
+              ><span class="d-none d-lg-inline-block">Admin</span></i
             ></a
           >
         </div>
 
         <!-- CONTAINER A DESTRA -->
 
-        <div class="container overflow-scroll">
+        <div class="container ms_overflow-scroll">
           <div class="row ms_datas p-2">
             <div class="col-sm-12 col-md-4 order-md-1 mt-md-3">
               Nuovo Studente
@@ -95,10 +104,10 @@
               <span>125</span>
             </div>
           </div>
-          <div class="row">
+          <div class="row gap-3">
             <div class="col-sm-12 col-lg-6">
               <!-- TABELLA -->
-              <div class="card">
+              <div class="card ms_height-FAQ">
                 <table class="table ms_table-height">
                   <thead>
                     <tr>
@@ -194,7 +203,7 @@
 
               <!-- FAQ -->
 
-              <div class="card d-none d-md-inline-block">
+              <div class="card d-none d-md-inline-block mt-3">
                 <h1>F.A.Q</h1>
                 <div class="accordion" id="accordionExample">
                   <div class="accordion-item">
@@ -220,15 +229,8 @@
                           >Come posso accedere alle informazioni del mio account
                           ?
                         </strong>
-                        It is shown by default, until the collapse plugin adds
+                        It is hidden by default, until the collapse plugin adds
                         the appropriate classes that we use to style each
-                        element. These classes control the overall appearance,
-                        as well as the showing and hiding via CSS transitions.
-                        You can modify any of this with custom CSS or overriding
-                        our default variables. It's also worth noting that just
-                        about any HTML can go within the
-                        <code>.accordion-body</code>, though the transition does
-                        limit overflow.
                       </div>
                     </div>
                   </div>
@@ -256,13 +258,6 @@
                         >
                         It is hidden by default, until the collapse plugin adds
                         the appropriate classes that we use to style each
-                        element. These classes control the overall appearance,
-                        as well as the showing and hiding via CSS transitions.
-                        You can modify any of this with custom CSS or overriding
-                        our default variables. It's also worth noting that just
-                        about any HTML can go within the
-                        <code>.accordion-body</code>, though the transition does
-                        limit overflow.
                       </div>
                     </div>
                   </div>
@@ -290,20 +285,13 @@
                         >
                         It is hidden by default, until the collapse plugin adds
                         the appropriate classes that we use to style each
-                        element. These classes control the overall appearance,
-                        as well as the showing and hiding via CSS transitions.
-                        You can modify any of this with custom CSS or overriding
-                        our default variables. It's also worth noting that just
-                        about any HTML can go within the
-                        <code>.accordion-body</code>, though the transition does
-                        limit overflow.
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-0 col-lg-6">
+            <div class="col-sm-0 col-lg-5">
               <!-- TODO -->
               <div class="card d-none d-lg-inline-block w-100">
                 <h3>Todo</h3>
@@ -346,7 +334,7 @@
 
               <!-- Graph -->
 
-              <div class="card d-none d-lg-inline-block">
+              <div class="card d-none d-lg-inline-block mt-md-3">
                 <ul class="list-group">
                   <li class="list-group-item">
                     <img src="img/stats.jpeg" alt="stats" class="img-stats" />
